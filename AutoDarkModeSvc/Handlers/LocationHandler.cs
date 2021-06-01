@@ -30,24 +30,44 @@ namespace AutoDarkModeSvc.Handlers
         {
             var permission = await Geolocator.RequestAccessAsync();
             var success = false;
+
+            void SetLatAndLon(BasicGeoposition position)
+            {
+                configBuilder.LocationData.Lon = position.Longitude;
+                configBuilder.LocationData.Lat = position.Latitude;
+                configBuilder.LocationData.LastUpdate = DateTime.Now;
+
+                Logger.Info($"retrieved latitude {position.Latitude} and longitude {position.Longitude}");
+                success = true;
+            }
+
             switch (permission)
             {
                 case GeolocationAccessStatus.Allowed:
                     Geolocator locator = new Geolocator();
                     Geoposition location = await locator.GetGeopositionAsync();
                     BasicGeoposition position = location.Coordinate.Point.Position;
-                    configBuilder.LocationData.Lon = position.Longitude;
-                    configBuilder.LocationData.Lat = position.Latitude;
-                    configBuilder.LocationData.LastUpdate = DateTime.Now;
-                    Logger.Info($"retrieved latitude {position.Latitude} and longitude {position.Longitude}");
-                    success = true;
+
+                    SetLatAndLon(position);
+
                     break;
                 default:
-                    configBuilder.Config.Location.Enabled = false;
-                    Logger.Warn($"no geolocation access, please enable in system settings");
+                    if (Geolocator.DefaultGeoposition.HasValue)
+                    {
+                        BasicGeoposition defaultPosition = Geolocator.DefaultGeoposition.Value;
+                        SetLatAndLon(defaultPosition);
+                    }
+                    else
+                    {
+                        configBuilder.Config.Location.Enabled = false;
+                        Logger.Warn($"no geolocation access, please enable in system settings");
+                    }
+
                     break;
             }
+
             UpdateSunTime(configBuilder);
+
             try
             {
                 configBuilder.SaveLocationData();

@@ -110,7 +110,7 @@
     <Resource Include="Resources\Settings_Icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="FluentWPF" Version="0.10.0" />
+    <PackageReference Include="FluentWPF" Version="0.8.0" />
     <PackageReference Include="InputSimulatorCore" Version="1.0.5" />
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
     <PackageReference Include="Microsoft.Windows.SDK.Contracts">

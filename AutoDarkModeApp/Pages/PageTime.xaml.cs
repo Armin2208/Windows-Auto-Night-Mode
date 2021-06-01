@@ -375,8 +375,16 @@ namespace AutoDarkModeApp.Pages
                     break;
 
                 case GeolocationAccessStatus.Denied:
-                    NoLocationAccess();
-                    loaded = false;
+                    if (Geolocator.DefaultGeoposition.HasValue)
+                    {
+                        //locate user + get sunrise & sunset times
+                        locationBlock.Text = Properties.Resources.lblCity + ": " + await locationHandler.GetCityName();
+                    }
+                    else
+                    {
+                        NoLocationAccess();
+                        loaded = false;
+                    }
                     break;
 
                 case GeolocationAccessStatus.Unspecified:
