@@ -439,7 +439,7 @@
     <value>应用所选主题时发生错误，已禁用主题切换</value>
   </data>
   <data name="cbOfficeWhiteTheme" xml:space="preserve">
-    <value>可替代白色主题</value>
+    <value>使用新版的“白色”主题</value>
   </data>
   <data name="buttonDownloadExtension" xml:space="preserve">
     <value>下载扩展</value>
@@ -466,7 +466,7 @@
     <value>捐赠</value>
   </data>
   <data name="donationDescription" xml:space="preserve">
-    <value>你好！ 感谢您使用自动深色模式。至今为止，您喜欢这个应用吗？
+    <value>您好！感谢您使用自动深色模式。至今为止，您喜欢这个应用吗？
 这个应用通过保护您的眼睛，让您每天的心情更加愉悦。同时它也是一个完全免费、无广告、不收集用户数据的开源项目。
 我并不靠这个项目盈利。
 
