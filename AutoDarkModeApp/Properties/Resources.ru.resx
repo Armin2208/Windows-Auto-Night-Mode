@@ -172,7 +172,7 @@
     <value>Система:</value>
   </data>
   <data name="lblThirdParty" xml:space="preserve">
-    <value>Использовать стороннее ПО</value>
+    <value>Используемое стороннее ПО</value>
   </data>
   <data name="lblUpdates" xml:space="preserve">
     <value>Обновления</value>
