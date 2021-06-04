@@ -1,0 +1,546 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="applyButton" xml:space="preserve">
+    <value>Uygula</value>
+  </data>
+  <data name="msgUpdateAvail" xml:space="preserve">
+    <value>Yeni güncelleme mevcut!</value>
+  </data>
+  <data name="lblTranslator" xml:space="preserve">
+    <value>Çeviri: Cumhur Kaya KURTOĞLU</value>
+  </data>
+  <data name="lblCity" xml:space="preserve">
+    <value>Konum</value>
+  </data>
+  <data name="lblLanguage" xml:space="preserve">
+    <value>Dil (Language):</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Auto Dark Mode</value>
+  </data>
+  <data name="updateButton" xml:space="preserve">
+    <value>Güncellemeleri kontrol et</value>
+  </data>
+  <data name="msgNoUpd" xml:space="preserve">
+    <value>Yeni güncelleme mevcut değil!</value>
+  </data>
+  <data name="msgSearchLoc" xml:space="preserve">
+    <value>Konumunuz aranıyor...</value>
+  </data>
+  <data name="lblUpdates" xml:space="preserve">
+    <value>Güncellemeler</value>
+  </data>
+  <data name="locationCheckBox" xml:space="preserve">
+    <value>Konum Servisini Kullan</value>
+  </data>
+  <data name="msgChangesSaved" xml:space="preserve">
+    <value>Değişiklikler kaydedildi! </value>
+  </data>
+  <data name="msgDownloadUpd" xml:space="preserve">
+    <value>Güncellemeyi indir</value>
+  </data>
+  <data name="msgSearchUpd" xml:space="preserve">
+    <value>Güncellemelere bakılıyor...</value>
+  </data>
+  <data name="NavbarAbout" xml:space="preserve">
+    <value>Hakkında</value>
+  </data>
+  <data name="restart" xml:space="preserve">
+    <value>Yeniden başlat</value>
+  </data>
+  <data name="VersionXUpdaterButtonNow" xml:space="preserve">
+    <value>İndir</value>
+  </data>
+  <data name="autoCheckBox" xml:space="preserve">
+    <value>Otomatik tema değişikliğini etkinleştir</value>
+  </data>
+  <data name="cmbAlwDark" xml:space="preserve">
+    <value>Her zaman koyu</value>
+  </data>
+  <data name="cmbAlwWhite" xml:space="preserve">
+    <value>Her zaman açık</value>
+  </data>
+  <data name="buttonDownloadExtension" xml:space="preserve">
+    <value>Uzantıyı İndir</value>
+  </data>
+  <data name="lblSettings" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="info" xml:space="preserve">
+    <value>Bilgi</value>
+  </data>
+  <data name="updateInfoText" xml:space="preserve">
+    <value>Güncellemeler uygulama her başladığında kontrol edilir.</value>
+  </data>
+  <data name="cmb1903" xml:space="preserve">
+    <value>Cihazınıza Windows 10 Nisan 2019 Güncellemesini (1903) yüklemediğiniz için bu seçenek devre dışı bırakılmıştır.</value>
+  </data>
+  <data name="or" xml:space="preserve">
+    <value>ya da</value>
+  </data>
+  <data name="save" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="msgNo" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="MsgYes" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="NavbarSettings" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="tbAppsTitleRecommendedTools" xml:space="preserve">
+    <value>Tavsiye edilen araçlar</value>
+  </data>
+  <data name="VersionXUpdaterButtonLater" xml:space="preserve">
+    <value>Sonra indir</value>
+  </data>
+  <data name="VersionXUpdaterButtonNever" xml:space="preserve">
+    <value>Tekrar hatırlatma</value>
+  </data>
+  <data name="VersionXUpdaterHeader" xml:space="preserve">
+    <value>Auto Dark Mode X mevcut</value>
+  </data>
+  <data name="VersionXUpdaterNeverTitle" xml:space="preserve">
+    <value>Emin misiniz?</value>
+  </data>
+  <data name="lblDark" xml:space="preserve">
+    <value>Koyu</value>
+  </data>
+  <data name="lblDarkTheme" xml:space="preserve">
+    <value>Koyu tema</value>
+  </data>
+  <data name="lblLight" xml:space="preserve">
+    <value>Açık</value>
+  </data>
+  <data name="lblLightTheme" xml:space="preserve">
+    <value>Açık tema</value>
+  </data>
+  <data name="msgClickApply" xml:space="preserve">
+    <value>Değişiklikleri kaydetmet için Uygulaya basın</value>
+  </data>
+  <data name="disabled" xml:space="preserve">
+    <value>Devre dışı</value>
+  </data>
+  <data name="msgClose" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="NavbarApps" xml:space="preserve">
+    <value>Uygulamalar</value>
+  </data>
+  <data name="NavbarDonation" xml:space="preserve">
+    <value>Bağış yap</value>
+  </data>
+  <data name="cmbAdjTheme" xml:space="preserve">
+    <value>Sistem moduna uy</value>
+  </data>
+  <data name="msgUpdaterText" xml:space="preserve">
+    <value>Auto Dark Mode'u kullandığınız için teşekkürler!
+
+Github'da düzeltmeler ve geliştirmeler içeren yeni bir sürüm mevcuttur.
+Bunu indirmek istiyor musunuz?
+
+Şu anda yüklü sürüm: {0}, yeni sürüm: {1}</value>
+  </data>
+  <data name="userFeedback" xml:space="preserve">
+    <value>Hoş geldiniz</value>
+  </data>
+  <data name="debugModeCheckBox" xml:space="preserve">
+    <value>Windows 1903 için özellikleri etkinleştir</value>
+  </data>
+  <data name="lblApps" xml:space="preserve">
+    <value>Uygulamalar:</value>
+  </data>
+  <data name="lblCustomStart" xml:space="preserve">
+    <value>Başlangıç zamanı</value>
+  </data>
+  <data name="lblEdge" xml:space="preserve">
+    <value>Edge (Eski):</value>
+  </data>
+  <data name="lblSystem" xml:space="preserve">
+    <value>Sistem:</value>
+  </data>
+  <data name="lblThirdParty" xml:space="preserve">
+    <value>Kullanılan üçüncü parti uygulamalar</value>
+  </data>
+  <data name="msgErrorOcc" xml:space="preserve">
+    <value>hata oluştu :(</value>
+  </data>
+  <data name="msgLocPerm" xml:space="preserve">
+    <value>Bu uygulamanın konumunuza erişmesi gerekiyor</value>
+  </data>
+  <data name="msgThemeError" xml:space="preserve">
+    <value>Uyarı: Mevcut temanızı okuyamadık.</value>
+  </data>
+  <data name="welcomeText" xml:space="preserve">
+    <value>Otomatik tema değiştirmeyi etkinleştirmek için onay kutusunu işaretleyin</value>
+  </data>
+  <data name="restartNeeded" xml:space="preserve">
+    <value>Değişikliklerin etkin olması için uygulamanın yeniden başlatılması gerekli</value>
+  </data>
+  <data name="cb12HourTime" xml:space="preserve">
+    <value>12 saatlik zaman</value>
+  </data>
+  <data name="cbBackgroundUpdate" xml:space="preserve">
+    <value>Güncellemeleri arka planda kontrol et</value>
+  </data>
+  <data name="NavbarTime" xml:space="preserve">
+    <value>Zaman</value>
+  </data>
+  <data name="NavbarWallpaper" xml:space="preserve">
+    <value>Arka Plan/Tema</value>
+  </data>
+  <data name="OpenPath" xml:space="preserve">
+    <value>Klasörü Aç</value>
+  </data>
+  <data name="ThemeDark" xml:space="preserve">
+    <value>Koyu Tema:</value>
+  </data>
+  <data name="ThemeLight" xml:space="preserve">
+    <value>Açık Tema:</value>
+  </data>
+  <data name="rbCustomHours" xml:space="preserve">
+    <value>Özel zamanlama</value>
+  </data>
+  <data name="rbLocation" xml:space="preserve">
+    <value>Gün batımından gün doğumuna</value>
+  </data>
+  <data name="NavbarTitle" xml:space="preserve">
+    <value>Menü</value>
+  </data>
+  <data name="ThemeSelection" xml:space="preserve">
+    <value>Modu seçin:</value>
+  </data>
+  <data name="msgBatterySaver" xml:space="preserve">
+    <value>Bir Windows hatası nedeniyle görev çubuğu pil tasarrufu modunda rengini doğru şekilde değiştirmiyor. Sorunla karşılaşırsanız lütfen pil tasarrufunu kapatın.</value>
+  </data>
+  <data name="locationCityNotFound" xml:space="preserve">
+    <value>Bulunamadı</value>
+  </data>
+  <data name="errorOcurredTitle" xml:space="preserve">
+    <value>Bir hata oluştu</value>
+  </data>
+  <data name="errorThemeApply" xml:space="preserve">
+    <value>Üzgünüz, ayarlarınızı uygulayamadık.
+
+İşte deneyebileceğiniz bazı şeyler:
+- Auto Dark Mode'u kaldırın ve ardından yeniden yükleyin.
+- Auto Dark Mode'un ayarlarında {0} seçeneğini devre dışı bırakmayı deneyin.
+- Masaüstü Duvar Kağıdını etkinleştirdiyseniz özelliği devre dışı bırakın ve tekrar deneyin.
+
+Bunlar yardımcı olmadıysa, GitHub'da sorununuzu hatanızın ekran görüntüsünü ekleyerek yazabilirsiniz. "Evet" düğmesine tıklayarak soruna erişebilirsiniz.</value>
+  </data>
+  <data name="errorNumberInput" xml:space="preserve">
+    <value>Hata: Girişiniz geçersiz</value>
+  </data>
+  <data name="enabled" xml:space="preserve">
+    <value>Etkin</value>
+  </data>
+  <data name="ErrorApplyRestart" xml:space="preserve">
+    <value>Aşağıdaki sorunla karşılaştık:
+{0}
+
+Şimdi yönetici olarak bir algoritma çalıştırarak bu sorunu çözmeye çalışacağız. Belki bu yardımcı olur.
+Auto Dark Mode daha sonra yeniden başlayacak ve maalesef ayarlarınızı yeniden uygulamanız gerekecek!
+
+Not: Auto Dark Mode'u elle yönetici olarak ASLA çalıştırmayın!</value>
+  </data>
+  <data name="DonationHeaderReason" xml:space="preserve">
+    <value>Neden bağış yapmalısınız?</value>
+  </data>
+  <data name="DonationHowTo" xml:space="preserve">
+    <value>Nasıl bağış yapabilirim?</value>
+  </data>
+  <data name="DonationPayPalDescription" xml:space="preserve">
+    <value>Bana PayPal ile para gönderebilirsiniz. Tamamen isteğe bağlıdır ve herhangi bir karşılık beklememelisiniz.</value>
+  </data>
+  <data name="donationDescription" xml:space="preserve">
+    <value>Merhaba! Auto Dark Mode'u kullandığınız için teşekkürler! Şimdiye kadar beğendin mi?
+
+Bu uygulama gözlerinize iyi bakmanıza yardımcı olarak günlük hayatınızı daha keyifli hale getirir. Aynı zamanda tamamen ücretsizdir, reklamsızdır, kullanıcı verilerini toplamaz ve açık kaynaklıdır.
+Bu proje ile herhangi bir kazanç elde etmiyorum.
+
+Bu nedenle bana gönüllü bir bağışla destek olabilirsiniz. Küçük bir miktar bile beni dairemde mutlu ediyor. Çalışmalarıma değer verdiğin kadar bağış yap.</value>
+  </data>
+  <data name="cbSettingsMultiUserImprovements" xml:space="preserve">
+    <value>Çoklu Kullanıcı desteği</value>
+  </data>
+  <data name="tbDarkReaderDescription" xml:space="preserve">
+    <value>Bu tarayıcı uzantısı Chrome, Firefox ve Edge'deki web sitelerinin sistem temasına uymasını sağlar.</value>
+  </data>
+  <data name="lblSwitchTheme" xml:space="preserve">
+    <value>Geçerli temayı değiştir</value>
+  </data>
+  <data name="cmbAccentColor" xml:space="preserve">
+    <value>Görev çubuğu için vurgu rengi</value>
+  </data>
+  <data name="dbCurrently" xml:space="preserve">
+    <value>Şu an:</value>
+  </data>
+  <data name="dbDark" xml:space="preserve">
+    <value>Koyun mod için duvar kağıdı</value>
+  </data>
+  <data name="dbDel" xml:space="preserve">
+    <value>Sil/Devre dışı bırak</value>
+  </data>
+  <data name="dbFilePicker" xml:space="preserve">
+    <value>Dosya seç</value>
+  </data>
+  <data name="dbLight" xml:space="preserve">
+    <value>Açık mod için duvar kağıdı</value>
+  </data>
+  <data name="dbMainHeader" xml:space="preserve">
+    <value>Masaüstü Arka Planı</value>
+  </data>
+  <data name="dbPictures" xml:space="preserve">
+    <value>Resimler</value>
+  </data>
+  <data name="dbSaveToolTip" xml:space="preserve">
+    <value>Lütfen iki duvar kağıdı seçin</value>
+  </data>
+  <data name="dbSelectImage" xml:space="preserve">
+    <value>Lütfen bir resim seçin</value>
+  </data>
+  <data name="dbTitle" xml:space="preserve">
+    <value>Masaüstü Arka Planını Yapılandır</value>
+  </data>
+  <data name="dbUseCurrent" xml:space="preserve">
+    <value>geçerli arka planı kullan</value>
+  </data>
+  <data name="dbErrorText" xml:space="preserve">
+    <value>Belki resim dosyanız bozuktur ya da yol mevcut değildir.</value>
+  </data>
+  <data name="dbPreviewError" xml:space="preserve">
+    <value>Üzgünüz, resiminizin ön izlemesini oluşturamadık!</value>
+  </data>
+  <data name="dbSavedError" xml:space="preserve">
+    <value>Üzgünüz, ayarlarınızı kaydedemedik!</value>
+  </data>
+  <data name="cbAccentColor" xml:space="preserve">
+    <value>Yalnızca karanlık modda görülebilir.
+Bir sorunla karşılaşırsanız lütfen ayarlardan değiştirme gecikmesini artırın.</value>
+  </data>
+  <data name="cbConnectedStandby" xml:space="preserve">
+    <value>Bağlı Bekleme Modundan sonra değişim yap (önerilmez)</value>
+  </data>
+  <data name="cbConnectedStandbyTooltip" xml:space="preserve">
+    <value>Microsoft Surface ürünleri gibi mobil cihazlar yeni bir bekleme modu kullanıyor. 
+Bu seçeneğin etkinleştirilmesi Auto Dark Mode'un bilgisayarınızın uyandıktan hemen sonra temayı değiştirmesini sağlar. 
+Ama aynı zamanda pil ömrünü de azaltır. Bu yüzden SADECE gerekirse etkinleştirin!</value>
+  </data>
+  <data name="lblOffset" xml:space="preserve">
+    <value>Kaydırma</value>
+  </data>
+  <data name="offsetButton" xml:space="preserve">
+    <value>Ayarla</value>
+  </data>
+  <data name="ToolTipDisabledDueTheme" xml:space="preserve">
+    <value>Bir Windows Teması kullanılırken bu seçenekler devre dışı bırakılır. 
+Bunları Windows Temanızda ayrı ayrı yapılandırabilirsiniz.</value>
+  </data>
+  <data name="ThemeHeaderCreate" xml:space="preserve">
+    <value>Temalarınızı oluşturun</value>
+  </data>
+  <data name="ThemeHeaderPick" xml:space="preserve">
+    <value>Temalarınızı seçin</value>
+  </data>
+  <data name="ThemeSelectionTheme" xml:space="preserve">
+    <value>Windows Teması (daha fazla özellik)</value>
+  </data>
+  <data name="ThemeSelectionWallaper" xml:space="preserve">
+    <value>Masaüstü Duvar Kağıdı (önerilir)</value>
+  </data>
+  <data name="ThemeTutorialStep1" xml:space="preserve">
+    <value>Windows Tema ayarlarını açmak için buraya tıklayın.</value>
+  </data>
+  <data name="ThemeTutorialStep2" xml:space="preserve">
+    <value>Şimdi 'Renkler' bölümüne gidin ve Açık Mod için sistem modunu 'Açık' olarak değiştirin. En sevdiğiniz duvar kağıdını, fare imlecini ve vurgu rengini seçin.</value>
+  </data>
+  <data name="ThemeTutorialStep3" xml:space="preserve">
+    <value>Tema ayarlarına geri dönün ve temanızı kaydedin.</value>
+  </data>
+  <data name="ThemeTutorialStep4" xml:space="preserve">
+    <value>Karanlık mod için bu işlemleri tekrarlayın.</value>
+  </data>
+  <data name="SettingsAccentColorTimeout" xml:space="preserve">
+    <value>Görev çubuğu renklerini değiştirmek için gecikme (ms):</value>
+  </data>
+  <data name="ThemeTutorialStep" xml:space="preserve">
+    <value>Adım</value>
+  </data>
+  <data name="cbSettingsColourFilter" xml:space="preserve">
+    <value>Gri tonlamalı renk filtresini kullan (Win + Ctrl + C gönderir)</value>
+  </data>
+  <data name="cbSettingsLogonTask" xml:space="preserve">
+    <value>Başlangıç girdisi yerine oturum açma görevi kullan</value>
+  </data>
+  <data name="ThemeApplyError1" xml:space="preserve">
+    <value>Seçilen temaları uygularken hata oluştu. Tema değiştirmeyi devre dışı bıraktık</value>
+  </data>
+  <data name="cbOfficeWhiteTheme" xml:space="preserve">
+    <value>Alternatif açık tema</value>
+  </data>
+  <data name="ThemeApplyError2" xml:space="preserve">
+    <value>.theme dosyası uygulanırken hata oluştu. Belki oluşturduğunuz tema silinmiş ya da taşınmıştır. Bu nedenle tema değiştirmeyi şimdilik devre dışı bıraktık. Yeniden etkinleştirmek için lütfen Auto Dark Mode'u açın ve {0} Ayarlarını yapılandırın.</value>
+  </data>
+  <data name="VersionXUpdaterDescription" xml:space="preserve">
+    <value>Son birkaç ay içinde size mümkün olan en iyi güncellemeyi sağlamak için çok çalışıyoruz. Şimdi burada!
+
+Auto Dark Mode X tamamen sıfırdan yeniden yazılmıştır. Artık Windows Görev Zamanlayıcısına güvenmek yerine gerçek bir arka plan görevi var. Bu daha güvenilir ve daha esnek bir tema değiştirme deneyimi elde ettiğiniz anlamına gelir!
+
+Evet, bu arka planda daha fazla kaynak tüketir ancak karşılığında verimliliğinizi artırmak için size daha fazla özellik sunuyor. Örneğin:
+- Oyun Modu: bir oyun oynarken ya da GPU'nuz meşgulken tema değiştirmeyi devre dışı bırakır.
+- Klavye kısayollarını kullanarak tema değiştirme
+Ve daha fazlası!
+
+Güncelleme, ARM cihazı sahipleri hariç herkes için uygundur. Bunlar pil ömrü ile ilgili sorunlar yaşayacaktır. Çünkü arka plan işlemi taklit edilmelidir (Sadece orada!).</value>
+  </data>
+  <data name="VersionXUpdaterNeverDescription" xml:space="preserve">
+    <value>Sürüm X, kesinlikle denemeniz gereken harika, büyük bir güncellemedir! İndirmek İSTEMEDİĞİNİZDEN emin misiniz? Size bir daha asla hatırlatmayacağız!</value>
+  </data>
+  <data name="tbSettingsColourFilterDelay" xml:space="preserve">
+    <value>Gri tonlamalı renk filtresini etkinleştirmek için isteğe bağlı gecikme:</value>
+  </data>
+  <data name="lblReset" xml:space="preserve">
+    <value>Sıfırla</value>
+  </data>
+  <data name="cbSettingsBatteryDarkMode" xml:space="preserve">
+    <value>Cihaz fişten çekildiğinde koyu modu etkinleştir</value>
+  </data>
+  <data name="SettingsBatterySlider" xml:space="preserve">
+    <value>Enerji tasarrufu kaydırıcısı için varsayılan değer</value>
+  </data>
+  <data name="cbSettingsEnergySaverMitigation" xml:space="preserve">
+    <value>Tema değişimi için enerji tasarrufunu azaltma</value>
+  </data>
+  <data name="cbSettingsEnergySaverMitigationInfo" xml:space="preserve">
+    <value>Bu sadece pil tasarrufunu elle etkinleştirmediyseniz çalışır!</value>
+  </data>
+  <data name="tbHelp" xml:space="preserve">
+    <value>Bir sorunla ilgili yardıma mı ihtiyacınız var?</value>
+  </data>
+</root>
