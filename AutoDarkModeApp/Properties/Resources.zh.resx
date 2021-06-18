@@ -351,7 +351,7 @@
     <value>由于Windows的一个bug，任务栏无法在节电模式下正确切换颜色。 如果遇到问题，请关闭节电模式。</value>
   </data>
   <data name="lblOffset" xml:space="preserve">
-    <value>浮动（offset）</value>
+    <value>调整</value>
   </data>
   <data name="offsetButton" xml:space="preserve">
     <value>设置</value>
