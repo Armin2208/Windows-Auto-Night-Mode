@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="About" xml:space="preserve">
-    <value>設置</value>
+    <value>設定</value>
   </data>
   <data name="applyButton" xml:space="preserve">
     <value>套用</value>
@@ -136,7 +136,7 @@
     <value>總是淺色</value>
   </data>
   <data name="debugModeCheckBox" xml:space="preserve">
-    <value>啟用Windows 1903的功能</value>
+    <value>啟用 Windows 1903 功能</value>
   </data>
   <data name="lblApps" xml:space="preserve">
     <value>應用程式：</value>
@@ -163,16 +163,16 @@
     <value>淺色主題</value>
   </data>
   <data name="lblSettings" xml:space="preserve">
-    <value>設置</value>
+    <value>設定</value>
   </data>
   <data name="lblSwitchTheme" xml:space="preserve">
-    <value>切換當前主題</value>
+    <value>切換到目前的主題</value>
   </data>
   <data name="lblSystem" xml:space="preserve">
     <value>系統：</value>
   </data>
   <data name="lblThirdParty" xml:space="preserve">
-    <value>使用的第三方軟件</value>
+    <value>使用的第三方軟體</value>
   </data>
   <data name="lblUpdates" xml:space="preserve">
     <value>更新</value>
@@ -184,28 +184,28 @@
     <value>已儲存變更！</value>
   </data>
   <data name="msgClickApply" xml:space="preserve">
-    <value>點擊套用以儲存變更</value>
+    <value>套用以儲存變更</value>
   </data>
   <data name="msgDownloadUpd" xml:space="preserve">
     <value>下載更新</value>
   </data>
   <data name="msgErrorOcc" xml:space="preserve">
-    <value>發生了錯誤 :(</value>
+    <value>發生錯誤 :(</value>
   </data>
   <data name="msgLocPerm" xml:space="preserve">
-    <value>此程式需要位置許可</value>
+    <value>應用程式需要您的位置存取權限</value>
   </data>
   <data name="msgNoUpd" xml:space="preserve">
     <value>已是最新版本</value>
   </data>
   <data name="msgSearchLoc" xml:space="preserve">
-    <value>正在搜尋你的位置…</value>
+    <value>正在搜尋您的位置…</value>
   </data>
   <data name="msgSearchUpd" xml:space="preserve">
     <value>正在搜尋更新…</value>
   </data>
   <data name="msgThemeError" xml:space="preserve">
-    <value>警告：此程式無法獲取當前的主題</value>
+    <value>警告：此應用程式無法取得目前的主題</value>
   </data>
   <data name="msgUpdateAvail" xml:space="preserve">
     <value>有可用的更新</value>
@@ -213,7 +213,7 @@
   <data name="msgUpdaterText" xml:space="preserve">
     <value>感謝你使用自動主題切換！
 
-新版本已在GitHub上提供，包含修復和增強功能。你要下載嗎？
+新版本已在 GitHub 上提供，包含修復和增強功能。你是否要下載？
 
 目前版本：{0}；新版本：{1}</value>
   </data>
@@ -224,31 +224,31 @@
     <value>檢查更新</value>
   </data>
   <data name="updateInfoText" xml:space="preserve">
-    <value>在程序啟動時檢查更新</value>
+    <value>應用程式啟動時檢查更新</value>
   </data>
   <data name="userFeedback" xml:space="preserve">
     <value>歡迎</value>
   </data>
   <data name="welcomeText" xml:space="preserve">
-    <value>點選選框以啟用自動主題切換</value>
+    <value>點選核取方塊以啟用自動主題切換</value>
   </data>
   <data name="lblTranslator" xml:space="preserve">
-    <value>翻譯者：hugoalh</value>
+    <value>翻譯者：hugoalh；臺灣在地化校正：jrthsr700tmax</value>
   </data>
   <data name="lblCity" xml:space="preserve">
     <value>城市</value>
   </data>
   <data name="cmb1903" xml:space="preserve">
-    <value>此選項已被停用，因為你尚未在此裝置上安裝Windows 10 April 2019更新。</value>
+    <value>此選項已停用，因為您尚未在此裝置上安裝 Windows 10 April 2019 更新。</value>
   </data>
   <data name="restartNeeded" xml:space="preserve">
-    <value>需要重新啟動程式才能套用變更</value>
+    <value>需要重新啟動程式以套用變更</value>
   </data>
   <data name="lblLanguage" xml:space="preserve">
     <value>語言：</value>
   </data>
   <data name="cmbAccentColor" xml:space="preserve">
-    <value>工作列使用輔色</value>
+    <value>在工作列使用輔色</value>
   </data>
   <data name="cancel" xml:space="preserve">
     <value>取消</value>
@@ -281,10 +281,10 @@
     <value>請選擇一張圖片</value>
   </data>
   <data name="dbTitle" xml:space="preserve">
-    <value>設置桌面背景</value>
+    <value>設定桌面背景</value>
   </data>
   <data name="dbUseCurrent" xml:space="preserve">
-    <value>使用目前背景</value>
+    <value>使用目前的桌面背景</value>
   </data>
   <data name="disabled" xml:space="preserve">
     <value>停用</value>
@@ -299,13 +299,13 @@
     <value>儲存</value>
   </data>
   <data name="dbErrorText" xml:space="preserve">
-    <value>可能你的圖片已損壞或路徑不存在。</value>
+    <value>您的圖片可能已經損毀或路徑不存在。</value>
   </data>
   <data name="dbPreviewError" xml:space="preserve">
-    <value>很抱歉，無法生成圖片的預覽！</value>
+    <value>抱歉，無法產生圖片預覽！</value>
   </data>
   <data name="dbSavedError" xml:space="preserve">
-    <value>很抱歉，無法儲存你的設置！</value>
+    <value>抱歉，無法儲存您的設定！</value>
   </data>
   <data name="errorOcurredTitle" xml:space="preserve">
     <value>發生錯誤</value>
@@ -317,7 +317,7 @@
     <value>資訊</value>
   </data>
   <data name="cb12HourTime" xml:space="preserve">
-    <value>12小時格式</value>
+    <value>12 小時制</value>
   </data>
   <data name="msgClose" xml:space="preserve">
     <value>關閉</value>
@@ -332,14 +332,14 @@
     <value>在背景搜尋更新</value>
   </data>
   <data name="errorThemeApply" xml:space="preserve">
-    <value>很抱歉，無法套用你的設置！
+    <value>抱歉，無法套用你的設定！
 
-你可以嘗試以下操作：
+您可以嘗試以下操作：
 - 解除安裝後重新安裝此程式。
-- 嘗試以管理員身份運行此程式。
-- 如果啟用了桌面背景，請停用該功能，然後重試。
+- 嘗試以系統管理員身分執行此程式。
+- 如果啟用桌面背景，請停用該功能，然後再試一次。
 
-如果這些操作都沒有幫助，你可以在GitHub Issue中發佈包含該錯誤的截圖。你可以通過點擊「是」按鈕來訪問。</value>
+如果這些操作都無法改善錯誤，您可以在 GitHub Issue 中發佈包含發生錯誤時的截圖。按一下「是」按鈕來造訪。</value>
   </data>
   <data name="errorNumberInput" xml:space="preserve">
     <value>錯誤：無效的輸入</value>
@@ -348,23 +348,23 @@
     <value>待機後切換</value>
   </data>
   <data name="cbConnectedStandbyTooltip" xml:space="preserve">
-    <value>諸如微軟Surface產品之類的移動設備正在使用一種新型的待機模式。
-啟用此選項可確保在喚醒裝置後可以立即切換主題。
-但是這也會縮短電池壽命！僅在必要時啟用！</value>
+    <value>例如微軟 Surface 產品類型的行動裝置正在使用一種新型待機模式。
+啟用此選項可以確保在喚醒裝置後可以立即切換主題。
+這將會縮短電池壽命！僅在必要時啟用！</value>
   </data>
   <data name="msgBatterySaver" xml:space="preserve">
-    <value>Due to a Windows bug the taskbar doesn't properly switch its colour in battery saver mode. Please turn off battery saver if you run into issues.由於Windows的問題，工作列無法在節電模式下正確切換其顏色。如果遇到問題，請關閉節電模式。</value>
+    <value>由於 Windows 的錯誤，導致工作列無法在省電模式下正確切換色彩。當您遇到這個問題時，請關閉省電模式。</value>
   </data>
   <data name="donationDescription" xml:space="preserve">
-    <value>你好！感謝使用自動主題切換。我希望你到目前為止喜歡它 :)
+    <value>您好！感謝您使用自動主題切換。我希望您到目前為止都很喜歡 :)
 
-是的，這位開發人員確實創建了一個彈出式視窗，以提醒人們他接受PayPal捐贈。真丟臉！
+是的，這位開發人員確實建立了一個彈出式視窗，以提醒人們他接受 PayPal 捐贈。真丟臉！
 
-但是，此程式使你的日常生活更加輕鬆。即使是一小筆捐款也讓我開心 :D
+但是，此應用程式使您的日常生活更加輕鬆。即使是小額捐款也讓我開心 :D
 
-你要立即打開PayPal捐贈頁面嗎？</value>
+您要立即開啟 PayPal 捐贈頁面嗎？</value>
   </data>
   <data name="donationTitle" xml:space="preserve">
-    <value>你喜歡自動主題切換嗎？</value>
+    <value>您喜歡自動主題切換嗎？</value>
   </data>
 </root>
