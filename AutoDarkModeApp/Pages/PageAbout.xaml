@@ -8,7 +8,7 @@
       xmlns:fw="clr-namespace:SourceChord.FluentWPF;assembly=FluentWPF"
       xmlns:Properties="clr-namespace:AutoDarkModeApp.Properties" x:Class="AutoDarkModeApp.Pages.PageAbout"
       mc:Ignorable="d"
-      Title="PageAbout" Height="560" Width="450" Foreground="{DynamicResource SystemBaseHighColorBrush}" fw:PointerTracker.Enabled="True" VerticalAlignment="Top" HorizontalAlignment="Left">
+      Title="PageAbout" Height="590" Width="450" Foreground="{DynamicResource SystemBaseHighColorBrush}" fw:PointerTracker.Enabled="True" VerticalAlignment="Top" HorizontalAlignment="Left">
 
     <Grid>
         <Grid.ColumnDefinitions>
@@ -146,6 +146,19 @@
             </TextBlock.Style>
         </TextBlock>
         <TextBlock Name="NetMQLicense" Text="NetMQ" FontSize="13" Margin="10,480,0,0" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top" Focusable="True" MouseDown="NetMQLicense_MouseDown" KeyDown="NetMQLicense_KeyDown">
+            <TextBlock.Style>
+                <Style TargetType="TextBlock">
+                    <Setter Property="Foreground" Value="{Binding Path=(fw:AccentColors.ImmersiveSystemAccentBrush)}"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Foreground" Value="Gray"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBlock.Style>
+        </TextBlock>
+        <TextBlock Name="SunriseCalcLicense" Text="SunriseCalculator" FontSize="13" Margin="10,510,0,0" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top" Focusable="True" MouseDown="SunriseCalcLicense_MouseDown" KeyDown="SunriseCalcLicense_KeyDown">
             <TextBlock.Style>
                 <Style TargetType="TextBlock">
                     <Setter Property="Foreground" Value="{Binding Path=(fw:AccentColors.ImmersiveSystemAccentBrush)}"/>

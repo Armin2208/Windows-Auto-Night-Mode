@@ -1,0 +1,5 @@
+[submodule "AutoDarkModeSvc/SunriseCalculator"]
+	path = AutoDarkModeSvc/SunriseCalculator
+	url = https://github.com/jwfxpr/SunriseCalculator.git
+	fetchRecurseSubmodules = false
+	
