@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -53,7 +53,6 @@
     value   : The object must be serialized with 
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
-
     mimetype: application/x-microsoft.net.object.bytearray.base64
     value   : The object must be serialized into a byte array 
             : using a System.ComponentModel.TypeConverter
@@ -118,16 +117,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="About" xml:space="preserve">
-    <value>設置</value>
+    <value>設定</value>
   </data>
   <data name="applyButton" xml:space="preserve">
     <value>套用</value>
   </data>
   <data name="autoCheckBox" xml:space="preserve">
     <value>自動切換主題</value>
-  </data>
-  <data name="cmbAdjTheme" xml:space="preserve">
-    <value>跟隨系統主題</value>
   </data>
   <data name="cmbAlwDark" xml:space="preserve">
     <value>總是深色</value>
@@ -136,13 +132,10 @@
     <value>總是淺色</value>
   </data>
   <data name="debugModeCheckBox" xml:space="preserve">
-    <value>啟用Windows 1903的功能</value>
+    <value>為 Windows 1903 組建啟用功能</value>
   </data>
   <data name="lblApps" xml:space="preserve">
     <value>應用程式：</value>
-  </data>
-  <data name="lblAuthor" xml:space="preserve">
-    <value>作者：Armin Osaj © 2019</value>
   </data>
   <data name="lblCustomStart" xml:space="preserve">
     <value>自訂開始時間</value>
@@ -163,34 +156,34 @@
     <value>淺色主題</value>
   </data>
   <data name="lblSettings" xml:space="preserve">
-    <value>設置</value>
+    <value>設定</value>
   </data>
   <data name="lblSwitchTheme" xml:space="preserve">
-    <value>切換當前主題</value>
+    <value>切換目前主題</value>
   </data>
   <data name="lblSystem" xml:space="preserve">
     <value>系統：</value>
   </data>
   <data name="lblThirdParty" xml:space="preserve">
-    <value>使用的第三方軟件</value>
+    <value>使用的第三方軟體</value>
   </data>
   <data name="lblUpdates" xml:space="preserve">
     <value>更新</value>
   </data>
   <data name="locationCheckBox" xml:space="preserve">
-    <value>使用位置服務</value>
+    <value>使用定位服務</value>
   </data>
   <data name="msgChangesSaved" xml:space="preserve">
     <value>已儲存變更！</value>
   </data>
   <data name="msgClickApply" xml:space="preserve">
-    <value>點擊套用以儲存變更</value>
+    <value>點擊套用以儲存變更。</value>
   </data>
   <data name="msgDownloadUpd" xml:space="preserve">
     <value>下載更新</value>
   </data>
   <data name="msgErrorOcc" xml:space="preserve">
-    <value>發生了錯誤 :(</value>
+    <value>發生錯誤 :(</value>
   </data>
   <data name="msgLocPerm" xml:space="preserve">
     <value>此程式需要位置許可</value>
@@ -202,44 +195,45 @@
     <value>正在搜尋你的位置…</value>
   </data>
   <data name="msgSearchUpd" xml:space="preserve">
-    <value>正在搜尋更新…</value>
+    <value>正在尋找更新…</value>
   </data>
   <data name="msgThemeError" xml:space="preserve">
-    <value>警告：此程式無法獲取當前的主題</value>
+    <value>警告：我們無法讀取您目前使用的主題。</value>
   </data>
   <data name="msgUpdateAvail" xml:space="preserve">
-    <value>有可用的更新</value>
+    <value>有可用更新！</value>
   </data>
   <data name="msgUpdaterText" xml:space="preserve">
-    <value>感謝你使用自動主題切換！
+    <value>感謝您使用 Auto Dark Mode！
 
-新版本已在GitHub上提供，包含修復和增強功能。你要下載嗎？
+在 Github 上有新版本，包含了 Bug 修補及一些新的功能。
+您要前往下載嗎？
 
-目前版本：{0}；新版本：{1}</value>
+目前版本：{0}，新版本：{1}</value>
   </data>
   <data name="Title" xml:space="preserve">
-    <value>自動主題切換</value>
+    <value>Auto Dark Mode</value>
   </data>
   <data name="updateButton" xml:space="preserve">
     <value>檢查更新</value>
   </data>
   <data name="updateInfoText" xml:space="preserve">
-    <value>在程序啟動時檢查更新</value>
+    <value>我們將在每次程式啟動時檢查更新。</value>
   </data>
   <data name="userFeedback" xml:space="preserve">
     <value>歡迎</value>
   </data>
   <data name="welcomeText" xml:space="preserve">
-    <value>點選選框以啟用自動主題切換</value>
+    <value>勾選核取方塊以啟用自動主題切換</value>
   </data>
   <data name="lblTranslator" xml:space="preserve">
-    <value>翻譯者：hugoalh</value>
+    <value>譯者：hugoalh、SiderealArt</value>
   </data>
   <data name="lblCity" xml:space="preserve">
     <value>城市</value>
   </data>
   <data name="cmb1903" xml:space="preserve">
-    <value>此選項已被停用，因為你尚未在此裝置上安裝Windows 10 April 2019更新。</value>
+    <value>由於您尚未安裝 Windows 10 2019 年四月更新，此選項將停用。</value>
   </data>
   <data name="restartNeeded" xml:space="preserve">
     <value>需要重新啟動程式才能套用變更</value>
@@ -248,7 +242,7 @@
     <value>語言：</value>
   </data>
   <data name="cmbAccentColor" xml:space="preserve">
-    <value>工作列使用輔色</value>
+    <value>工作列輔色</value>
   </data>
   <data name="cancel" xml:space="preserve">
     <value>取消</value>
@@ -257,16 +251,16 @@
     <value>目前：</value>
   </data>
   <data name="dbDark" xml:space="preserve">
-    <value>深色主題背景</value>
+    <value>深色主題桌布</value>
   </data>
   <data name="dbDel" xml:space="preserve">
-    <value>刪除／停用</value>
+    <value>刪除/停用</value>
   </data>
   <data name="dbFilePicker" xml:space="preserve">
     <value>選擇檔案</value>
   </data>
   <data name="dbLight" xml:space="preserve">
-    <value>淺色主題背景</value>
+    <value>深色主題桌布</value>
   </data>
   <data name="dbMainHeader" xml:space="preserve">
     <value>桌面背景</value>
@@ -275,7 +269,7 @@
     <value>圖片</value>
   </data>
   <data name="dbSaveToolTip" xml:space="preserve">
-    <value>請選擇兩個背景</value>
+    <value>請選擇兩個桌布</value>
   </data>
   <data name="dbSelectImage" xml:space="preserve">
     <value>請選擇一張圖片</value>
@@ -302,22 +296,23 @@
     <value>可能你的圖片已損壞或路徑不存在。</value>
   </data>
   <data name="dbPreviewError" xml:space="preserve">
-    <value>很抱歉，無法生成圖片的預覽！</value>
+    <value>很抱歉，無法生成預覽圖！</value>
   </data>
   <data name="dbSavedError" xml:space="preserve">
-    <value>很抱歉，無法儲存你的設置！</value>
+    <value>很抱歉，無法儲存您的設置！</value>
   </data>
   <data name="errorOcurredTitle" xml:space="preserve">
     <value>發生錯誤</value>
   </data>
   <data name="cbAccentColor" xml:space="preserve">
-    <value>僅在深色主題下可見</value>
+    <value>僅在深色主題下可見。
+如果您遇到問題：請提高設定中的切換延遲。</value>
   </data>
   <data name="info" xml:space="preserve">
     <value>資訊</value>
   </data>
   <data name="cb12HourTime" xml:space="preserve">
-    <value>12小時格式</value>
+    <value>12 小時格式</value>
   </data>
   <data name="msgClose" xml:space="preserve">
     <value>關閉</value>
@@ -329,42 +324,221 @@
     <value>是</value>
   </data>
   <data name="cbBackgroundUpdate" xml:space="preserve">
-    <value>在背景搜尋更新</value>
+    <value>在後台搜尋更新</value>
   </data>
   <data name="errorThemeApply" xml:space="preserve">
-    <value>很抱歉，無法套用你的設置！
+    <value>很抱歉，但我們無法儲存您的設置！
 
 你可以嘗試以下操作：
 - 解除安裝後重新安裝此程式。
-- 嘗試以管理員身份運行此程式。
-- 如果啟用了桌面背景，請停用該功能，然後重試。
+- 嘗試在 Auto Dark Mode 設定中關閉 {0}。
+- 如果您啟用了桌布，請停用該功能，然後重試。
 
-如果這些操作都沒有幫助，你可以在GitHub Issue中發佈包含該錯誤的截圖。你可以通過點擊「是」按鈕來訪問。</value>
+如果這些操作都沒有用，你可以在 GitHub Issue 貼上包含該錯誤的截圖。你可以通過點擊 「是」 按鈕來前往 Github。
+</value>
   </data>
   <data name="errorNumberInput" xml:space="preserve">
-    <value>錯誤：無效的輸入</value>
+    <value>錯誤：輸入無效</value>
   </data>
   <data name="cbConnectedStandby" xml:space="preserve">
-    <value>待機後切換</value>
+    <value>連接待機模式後切換 (不建議)</value>
   </data>
   <data name="cbConnectedStandbyTooltip" xml:space="preserve">
-    <value>諸如微軟Surface產品之類的移動設備正在使用一種新型的待機模式。
-啟用此選項可確保在喚醒裝置後可以立即切換主題。
-但是這也會縮短電池壽命！僅在必要時啟用！</value>
+    <value>例如 Microsoft Surface 的行動裝置使用了一種新的待機模式。
+啟用此功能能夠確保 Auto Dark Mode 在您喚醒電腦後立刻切換主題。 
+但同時會增加耗電量，若非必要請勿啟用！</value>
   </data>
   <data name="msgBatterySaver" xml:space="preserve">
-    <value>Due to a Windows bug the taskbar doesn't properly switch its colour in battery saver mode. Please turn off battery saver if you run into issues.由於Windows的問題，工作列無法在節電模式下正確切換其顏色。如果遇到問題，請關閉節電模式。</value>
+    <value>由於 Windows 的 Bug，工作列在省電模式時無法正確切換顏色。如果您遭遇問題，請關閉省電模式。</value>
+  </data>
+  <data name="lblOffset" xml:space="preserve">
+    <value>偏移</value>
+  </data>
+  <data name="offsetButton" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="ToolTipDisabledDueTheme" xml:space="preserve">
+    <value>由於您使用了 Windows 佈景主題，這些選項將停用。您可以在 Windows 佈景主題中個別設置。</value>
+  </data>
+  <data name="NavbarApps" xml:space="preserve">
+    <value>應用程式</value>
+  </data>
+  <data name="NavbarSettings" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="NavbarTime" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="NavbarWallpaper" xml:space="preserve">
+    <value>桌布/主題</value>
+  </data>
+  <data name="OpenPath" xml:space="preserve">
+    <value>開啟資料夾</value>
+  </data>
+  <data name="ThemeDark" xml:space="preserve">
+    <value>深色佈景主題：</value>
+  </data>
+  <data name="ThemeHeaderCreate" xml:space="preserve">
+    <value>建立佈景主題</value>
+  </data>
+  <data name="ThemeHeaderPick" xml:space="preserve">
+    <value>選擇您的佈景主題</value>
+  </data>
+  <data name="ThemeLight" xml:space="preserve">
+    <value>淺色佈景主題：</value>
+  </data>
+  <data name="ThemeSelectionTheme" xml:space="preserve">
+    <value>Windows 佈景主題 (更多功能)</value>
+  </data>
+  <data name="ThemeSelectionWallaper" xml:space="preserve">
+    <value>桌布 (建議)</value>
+  </data>
+  <data name="ThemeTutorialStep1" xml:space="preserve">
+    <value>點擊此處以開啟 Windows 佈景主題設置。</value>
+  </data>
+  <data name="ThemeTutorialStep2" xml:space="preserve">
+    <value>前往 '顏色' 並將系統顏色設為 '淺色'。選擇您想要的桌布、游標、及輔色。</value>
+  </data>
+  <data name="ThemeTutorialStep3" xml:space="preserve">
+    <value>返回主題設置並儲存您的佈景主題。</value>
+  </data>
+  <data name="ThemeTutorialStep4" xml:space="preserve">
+    <value>重複以上步驟以設定深色主題。</value>
+  </data>
+  <data name="SettingsAccentColorTimeout" xml:space="preserve">
+    <value>切換工作列顏色延遲 (毫秒)：</value>
+  </data>
+  <data name="NavbarAbout" xml:space="preserve">
+    <value>關於</value>
+  </data>
+  <data name="NavbarTitle" xml:space="preserve">
+    <value>選單</value>
+  </data>
+  <data name="restart" xml:space="preserve">
+    <value>重新啟動</value>
+  </data>
+  <data name="rbCustomHours" xml:space="preserve">
+    <value>設定自訂時間</value>
+  </data>
+  <data name="rbLocation" xml:space="preserve">
+    <value>從日出到日落</value>
+  </data>
+  <data name="ThemeTutorialStep" xml:space="preserve">
+    <value>步驟</value>
+  </data>
+  <data name="cbSettingsColourFilter" xml:space="preserve">
+    <value>使用灰階濾鏡 (等同按下 Win + Ctrl + C)</value>
+  </data>
+  <data name="cbSettingsLogonTask" xml:space="preserve">
+    <value>使用登入工作而非啟動項目</value>
+  </data>
+  <data name="ThemeSelection" xml:space="preserve">
+    <value>選擇模式：</value>
+  </data>
+  <data name="ThemeApplyError1" xml:space="preserve">
+    <value>套用您選擇的佈景主題時發生錯誤，我們停用了主題切換功能</value>
+  </data>
+  <data name="cbOfficeWhiteTheme" xml:space="preserve">
+    <value>Alternative light theme</value>
+  </data>
+  <data name="buttonDownloadExtension" xml:space="preserve">
+    <value>下載擴充功能</value>
+  </data>
+  <data name="tbAppsTitleRecommendedTools" xml:space="preserve">
+    <value>建議工具</value>
+  </data>
+  <data name="tbDarkReaderDescription" xml:space="preserve">
+    <value>此擴充功能可以使 Chrome、Firefox 和 Edge 的網頁隨著系統主題切換顏色。</value>
+  </data>
+  <data name="locationCityNotFound" xml:space="preserve">
+    <value>找不到</value>
+  </data>
+  <data name="DonationHeaderReason" xml:space="preserve">
+    <value>為甚麼要贊助？</value>
+  </data>
+  <data name="DonationHowTo" xml:space="preserve">
+    <value>要怎麼贊助？</value>
+  </data>
+  <data name="DonationPayPalDescription" xml:space="preserve">
+    <value>您可以透過 PayPal 贊助我。完全不強迫，您不應該期待有任何報酬。</value>
+  </data>
+  <data name="NavbarDonation" xml:space="preserve">
+    <value>贊助</value>
   </data>
   <data name="donationDescription" xml:space="preserve">
-    <value>你好！感謝使用自動主題切換。我希望你到目前為止喜歡它 :)
+    <value>嗨！感謝您使用 Auto Dark Mode！目前為止您還喜歡這個程式嗎？
 
-是的，這位開發人員確實創建了一個彈出式視窗，以提醒人們他接受PayPal捐贈。真丟臉！
+此程式透過自動調整顏色保護您的眼睛，使您使用電腦時更加舒適。且同時免費、不收集使用者資料、開放原始碼。
+我不會從此程式獲得任何收益。
 
-但是，此程式使你的日常生活更加輕鬆。即使是一小筆捐款也讓我開心 :D
-
-你要立即打開PayPal捐贈頁面嗎？</value>
+故希望您能透過贊助支持我。即使是一小筆錢也能使我開心地活蹦亂跳。只要贊助您覺得此程式在您心中值多少錢即可。</value>
   </data>
-  <data name="donationTitle" xml:space="preserve">
-    <value>你喜歡自動主題切換嗎？</value>
+  <data name="ThemeApplyError2" xml:space="preserve">
+    <value>套用 .theme-file 時發生錯誤。您建立的佈景主題可能被刪除或移動了。所以我們暫時先停用了自動主題切換。若要重新啟用，請開啟 Auto Dark Mode 並調整 {0} 設定。</value>
+  </data>
+  <data name="ErrorApplyRestart" xml:space="preserve">
+    <value>我們遇到了以下問題： 
+{0}
+
+我們現在會以管理員身分執行程序以嘗試修復。Auto Dark Mode 會自動重新啟動，但您必須重新套用您的設定。造成不便，敬請見諒。
+
+提醒：永遠不要手動以系統管理員身分執行 Auto Dark Mode！</value>
+  </data>
+  <data name="tbHelp" xml:space="preserve">
+    <value>需要幫助嗎？</value>
+  </data>
+  <data name="VersionXUpdaterButtonLater" xml:space="preserve">
+    <value>稍後下載</value>
+  </data>
+  <data name="VersionXUpdaterButtonNever" xml:space="preserve">
+    <value>不再提醒</value>
+  </data>
+  <data name="VersionXUpdaterButtonNow" xml:space="preserve">
+    <value>現在下載</value>
+  </data>
+  <data name="VersionXUpdaterDescription" xml:space="preserve">
+    <value>在過去的幾個月中，我們持續努力為您提供最好的更新。現在，它終於來了！
+
+Auto Dark Mode X 完全從頭開始重新設計。現在 Auto Dark Mode 不再依靠工作排程器，而是使用真正的背景程序。這表示您將獲得更可靠且彈性的主題切換體驗！
+
+雖然在背景耗費的資源變多了，但我們也因此能提供更多功能來提高您的生產力。比如：
+- 遊戲模式: 在您遊玩遊戲或是 GPU 忙碌時停用主題切換。
+- 透過鍵盤快捷鍵切換主題
+以及更多功能！
+
+此更新適用於使用 ARM 裝置以外的使用者。因為此更新的背景程序在 ARM 裝置上必須被模擬，故會影響裝置續航。</value>
+  </data>
+  <data name="VersionXUpdaterHeader" xml:space="preserve">
+    <value>Auto Dark Mode X 現在可用</value>
+  </data>
+  <data name="VersionXUpdaterNeverDescription" xml:space="preserve">
+    <value>Version X 絕對是您值得一試的超棒更新！您確定不要下載嗎？我們以後不會再提醒您了！</value>
+  </data>
+  <data name="VersionXUpdaterNeverTitle" xml:space="preserve">
+    <value>您確定嗎？</value>
+  </data>
+  <data name="cbSettingsMultiUserImprovements" xml:space="preserve">
+    <value>支援多個使用者</value>
+  </data>
+  <data name="tbSettingsColourFilterDelay" xml:space="preserve">
+    <value>啟用灰階濾鏡延遲 (選填)：</value>
+  </data>
+  <data name="cmbAdjTheme" xml:space="preserve">
+    <value>跟隨系統</value>
+  </data>
+  <data name="lblReset" xml:space="preserve">
+    <value>重設</value>
+  </data>
+  <data name="cbSettingsBatteryDarkMode" xml:space="preserve">
+    <value>未充電時啟用深色模式</value>
+  </data>
+  <data name="SettingsBatterySlider" xml:space="preserve">
+    <value>省電滑條預設值</value>
+  </data>
+  <data name="cbSettingsEnergySaverMitigation" xml:space="preserve">
+    <value>降低主題切換的耗電量</value>
+  </data>
+  <data name="cbSettingsEnergySaverMitigationInfo" xml:space="preserve">
+    <value>僅在您尚未手動啟用省電模式時可用！</value>
   </data>
 </root>
