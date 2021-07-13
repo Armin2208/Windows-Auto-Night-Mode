@@ -516,4 +516,13 @@ Pembaruan ini cocok untuk semua orang kecuali pengguna dengan perangkat ARM. ini
     <value>Perangkat seluler, seperti produk Microsoft Surface menggunakan mode siaga terbaru. Menyalakan opsi ini membuat Auto Dark Mode mengganti tema setelah komputer kembali diakses. Tetapi mode tersebut dapat menguras batere
 (aktifkan jika DIPERLUKAN).</value>
   </data>
+	<data name="cbSettingsEnergySaverMitigation" xml:space="preserve">
+    <value>Pencegahan penghematan daya untuk berganti tema</value>
+  </data>
+	<data name="cbSettingsEnergySaverMitigationInfo" xml:space="preserve">
+    <value>Opsi ini hanya berfungsi jika anda tidak menyalakan penghematan daya secara manual</value>
+  </data>
+	<data name="cbSettingsBatteryDarkMode" xml:space="preserve">
+    <value>Nyalakan mode gelap bila perangkat terputus dari saklar daya</value>
+  </data>
 </root>
